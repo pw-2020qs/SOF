@@ -4,9 +4,9 @@ import Lateral from './Lateral';
 const image = "./200x200.png";
 
 class Galeria extends Component {
-
+  
   render() {
-    const cards = [];
+  const cards = [];
     for (let i = 0; i < 10; i++) {
       cards.push(<img src={image}/>);
     }
