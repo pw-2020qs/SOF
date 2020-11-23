@@ -26,12 +26,21 @@
   color: white;
 }
 
-.App-link {
-  color: #1b1b1b;
+.navbar-custom { 
+  background-color: #418f87 !important; 
+} 
+
+
+.listLateral a{
+  color: #d4d4d4 !important;
+}
+
+.App-link{
+  color: #1b1b1b !important;
 }
 
 .lateral {
-  color: #1b1b1b;
+  color: #1b1b1b !important;
 }
 
 .lateralDropdown{
