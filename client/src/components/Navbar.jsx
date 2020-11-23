@@ -51,13 +51,13 @@ const Navbar = () => {
           </div>
           <ul class="navbar-nav">
             <li class="nav-item">
-              <Link to="/" class="nav-link" href="#">Home</Link>
+              <Link to="/" class="nav-link" href="#">Início</Link>
             </li>
             <li class="nav-item">
-              <Link to="/about" class="nav-link" href="#">About Us</Link>
+              <Link to="/about" class="nav-link" href="#">Sobre nós</Link>
             </li>
             <li class="nav-item">
-              <Link to="/contact" class="nav-link" href="#">Contact Us</Link>
+              <Link to="/contact" class="nav-link" href="#">Contato</Link>
             </li>
           </ul>
         </nav>

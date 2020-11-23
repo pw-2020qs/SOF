@@ -1,14 +1,16 @@
 import React, {Component} from 'react';
 import Lateral from './Lateral';
+import GalleryImage from './GalleryImage';
 
 const image = "./200x200.png";
+const desc = "Pantanal image"
 
 class Galeria extends Component {
-  
+
   render() {
-  const cards = [];
-    for (let i = 0; i < 10; i++) {
-      cards.push(<img src={image}/>);
+    const gallery_image = [];
+    for (let i = 0; i < 12; i++) {
+      gallery_image.push(<GalleryImage short_desc={desc} img_src={image} ident={i} />);
     }
     return (
       <div class="container">
@@ -19,7 +21,7 @@ class Galeria extends Component {
               <div class="row">
                 <div class="col-md-12">
                   <div class="card-columns">
-                    {cards}
+                    {gallery_image}
                   </div>
                 </div>
               </div>

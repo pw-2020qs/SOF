@@ -1,7 +1,15 @@
 import React, {Component} from 'react';
 import { Link } from "react-router-dom";
+//import { Lightbox } from "react-modal-image";
+//import ModalImage from "react-modal-image";
 
-class OngCard extends Component {
+{/* <ModalImage
+  small={urlToTinyImageFile}
+  large={urlToHugeImageFile}
+  alt="Hello World!"
+/>; */}
+
+class GalleryImage extends Component {
   render() {
     let path = `/ongs/${this.props.ident}`;
     return (

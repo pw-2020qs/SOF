@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import 'react-image-lightbox/style.css';
 
 function App() {
   return (
