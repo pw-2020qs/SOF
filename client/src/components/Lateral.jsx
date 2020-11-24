@@ -14,7 +14,7 @@ class Lateral extends Component {
       <div class="col-md-3 lateral">
         <div class="wrapper">
           <div class="navbar-custom bg-secondary listLateral">
-    
+
           <nav id="sidebar">
 
             <ul class="listLateral list-group">
@@ -26,7 +26,7 @@ class Lateral extends Component {
                     <ul class="collapse list-unstyled lateralDropdown" id="animaisSubmenu">
 
                         <li>
-                            <a href="#">Ameaçadas</a>
+                            <Link to="/animais">Ameaçadas</Link>
                         </li>
                         <li>
                             <a href="#">Criticamente ameaçadas</a>
