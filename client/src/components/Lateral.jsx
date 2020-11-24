@@ -13,13 +13,8 @@ class Lateral extends Component {
     return (
       <div class="col-md-3 lateral">
         <div class="wrapper">
-<<<<<<< HEAD
           <div class="navbar-custom bg-secondary listLateral">
     
-=======
-          <div class="bg-secondary">
-
->>>>>>> 9312145a1ba0d9ef1cf8702974a5a655b52c738f
           <nav id="sidebar">
 
             <ul class="listLateral list-group">
@@ -31,11 +26,7 @@ class Lateral extends Component {
                     <ul class="collapse list-unstyled lateralDropdown" id="animaisSubmenu">
 
                         <li>
-<<<<<<< HEAD
                             <a href="#">Ameaçadas</a>
-=======
-                            <Link to="/animais">Esgoto</Link>
->>>>>>> 9312145a1ba0d9ef1cf8702974a5a655b52c738f
                         </li>
                         <li>
                             <a href="#">Criticamente ameaçadas</a>
