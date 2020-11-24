@@ -53,6 +53,41 @@
   /* background-color: #4d4d4d; */
 }
 
+.img:hover{
+  color: #424242; 
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  opacity: 1;
+  transform: scale(1.02);
+  -ms-transform: scale(1.15); /* IE 9 /
+  -webkit-transform: scale(1.15); / Safari and Chrome */
+
+}
+
+/* tentativa de modal*/
+.modal,body.modal-open {
+  padding-right: 0!important
+}
+body.modal-open {
+  overflow: auto
+}
+body.scrollable {
+  overflow-y: auto
+}
+/*
+.modal-footer {
+display: flex;
+justify-content: flex-start;
+.btn {
+  position: absolute;
+  right: 10px;
+}
+}*/
+/*fim tentativa de modal*/
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

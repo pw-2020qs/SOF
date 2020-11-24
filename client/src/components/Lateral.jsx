@@ -13,8 +13,13 @@ class Lateral extends Component {
     return (
       <div class="col-md-3 lateral">
         <div class="wrapper">
+<<<<<<< HEAD
           <div class="navbar-custom bg-secondary listLateral">
     
+=======
+          <div class="bg-secondary">
+
+>>>>>>> 9312145a1ba0d9ef1cf8702974a5a655b52c738f
           <nav id="sidebar">
 
             <ul class="listLateral list-group">
@@ -24,9 +29,13 @@ class Lateral extends Component {
                 <li class="lateral list-group-item bg-transparent">
                     <a href="#animaisSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Espécies</a>
                     <ul class="collapse list-unstyled lateralDropdown" id="animaisSubmenu">
-                        
+
                         <li>
+<<<<<<< HEAD
                             <a href="#">Ameaçadas</a>
+=======
+                            <Link to="/animais">Esgoto</Link>
+>>>>>>> 9312145a1ba0d9ef1cf8702974a5a655b52c738f
                         </li>
                         <li>
                             <a href="#">Criticamente ameaçadas</a>
@@ -45,15 +54,15 @@ class Lateral extends Component {
             </ul>
         </nav>
 
-        
+
         <div id="content">
-            
+
         </div>
 
       </div>
       </div>
       </div>
-      
+
         // <div class="col-md-3 lateral">
         //   <div class="bg-secondary">
         //     <ul class="list-group">
