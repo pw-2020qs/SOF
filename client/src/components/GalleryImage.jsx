@@ -18,9 +18,9 @@ class GalleryImage extends Component {
     <figure class="img mdb-lightbox">
         <a href="#" data-size="1600x1067">
                 <div class="ba-0 ds-1">
-                    <button data-target="#modalIMG" data-toggle="modal">
+                    
                         <img alt = "Pantanal imagem" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(2).jpg" class="img-fluid"/>
-                    </button>
+                   
                 </div>
             </a>
       </figure>
