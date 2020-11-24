@@ -11,6 +11,7 @@ router.get('/animais/:id', (req, res, next) => {
   const data = require('../db.json');
   for (let i=0; i < data.Animais.length; i++) {
     if (data.Animais[i]._id.toString() == req.params.id) {
+      console.log(data.Animais[i]);
       res.json(data.Animais[i]);
     }
   }

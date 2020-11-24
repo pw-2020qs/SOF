@@ -14,7 +14,7 @@ class Lateral extends Component {
       <div class="col-md-3 lateral">
         <div class="wrapper">
           <div class="bg-secondary">
-    
+
           <nav id="sidebar">
 
             <ul class="list-group">
@@ -24,9 +24,9 @@ class Lateral extends Component {
                 <li class="lateral list-group-item bg-transparent">
                     <a href="#animaisSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Espécies</a>
                     <ul class="collapse list-unstyled lateralDropdown" id="animaisSubmenu">
-                        
+
                         <li>
-                            <a href="#">Região 1</a>
+                            <Link to="/animais">Esgoto</Link>
                         </li>
                         <li>
                             <a href="#">Região 2</a>
@@ -48,15 +48,15 @@ class Lateral extends Component {
             </ul>
         </nav>
 
-        
+
         <div id="content">
-            
+
         </div>
 
       </div>
       </div>
       </div>
-      
+
         // <div class="col-md-3 lateral">
         //   <div class="bg-secondary">
         //     <ul class="list-group">

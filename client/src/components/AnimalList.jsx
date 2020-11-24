@@ -28,8 +28,6 @@ class AnimalList extends Component {
   }
 
   render() {
-    console.log("teste");
-    console.log(this.state);
     let {animais} = this.state;
 
     return (
