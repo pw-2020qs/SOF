@@ -11,13 +11,13 @@ function Carousel() {
       </ol>
       <div class="carousel-inner" role="listbox">
         <Link to="/galeria" class="carousel-item active">
-          <img class="d-block" src="./800x400.png" alt="First slide"/>
+          <img class="d-block w-100 item img" src="./Images/p5.jpg" alt="First slide"/>
         </Link>
         <Link to="/galeria" class="carousel-item">
-          <img class="d-block" src="./800x400.png" alt="Second slide"/>
+          <img class="d-block w-100 item img" src="./Images/p6.jpg" alt="Second slide"/>
         </Link>
         <Link to="/galeria" class="carousel-item">
-          <img class="d-block" src="./800x400.png" alt="Third slide"/>
+          <img class="d-block w-100 item img" src="./Images/p8.jpg" alt="Third slide"/>
         </Link>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

@@ -42,15 +42,16 @@ class Animal extends Component {
                   </div>
                 </div>
               </article>
+              <hr />
+            <Comments coms={animal.Comentarios}/>
             </div>
           </div>
         </div>
-        <hr />
         <div class="row mt-5">
         </div>
         <div class="row-mt-5 justify-content-center">
           <div class="container col-md-9">
-            <Comments coms={animal.Comentarios}/>
+            
           </div>
         </div>
       </div>

@@ -22,14 +22,14 @@ class Lateral extends Component {
                   <Link to="/home">Início</Link>
                 </li>
                 <li class="lateral list-group-item bg-transparent">
+                    
                     <a href="#animaisSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Espécies</a>
                     <ul class="collapse list-unstyled lateralDropdown" id="animaisSubmenu">
-
                         <li>
                             <Link to="/animais">Ameaçadas</Link>
                         </li>
                         <li>
-                            <a href="#">Criticamente ameaçadas</a>
+                            <a href="/animais">Criticamente ameaçadas</a>
                         </li>
                     </ul>
                 </li>
