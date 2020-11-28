@@ -14,72 +14,48 @@ class Lateral extends Component {
       <div class="col-md-3 lateral">
         <div class="wrapper">
           <div class="navbar-custom bg-secondary listLateral">
-
-          <nav id="sidebar">
-
-            <ul class="no-bullets listLateral list-group">
-                <li class="list-group-item bg-transparent">
-                  <li class ="liLateral">
-                  <Link to="/home">Início</Link></li>
-                </li>
-                <li class="lateral list-group-item bg-transparent">
-                  <li class ="liLateral">
-                    <a class ="liLateral" href="#animaisSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Espécies</a>
-                    <ul class="collapse list-unstyled lateralDropdown" id="animaisSubmenu">
-                        <li class ="liLateral">
-                            <Link to="/animais">Ameaçadas</Link>
-                        </li>
-                        <li class ="liLateral">
-                            <a href="/animais">Criticamente ameaçadas</a>
-                        </li>
-                    </ul>
+            <nav id="sidebar">
+              <ul class="no-bullets listLateral list-group">
+                  {/* dois li para a borda da navbar não aparecer no zoom do hover */}
+                  <li class="list-group-item bg-transparent">
+                    <li class ="liLateral">
+                    <Link to="/home">Início</Link></li>
                   </li>
-                </li>
-                <li class="list-group-item bg-transparent">
-                  <li class ="liLateral">
-                    <Link to="/ongs">ONGs</Link>
+                  <li class="lateral list-group-item bg-transparent">
+                    <li class ="liLateral">
+                      <a class ="liLateral" href="#animaisSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Espécies</a>
+                      <ul class="collapse list-unstyled lateralDropdown" id="animaisSubmenu">
+                          <li class ="liLateral">
+                              <Link to="/animais">Ameaçadas</Link>
+                          </li>
+                          <li class ="liLateral">
+                              <a href="/animais">Criticamente ameaçadas</a>
+                          </li>
+                      </ul>
                     </li>
-                </li>
-                <li class="list-group-item bg-transparent">
-                  <li class ="liLateral">
-                    <Link to="/pantanal">O Pantanal</Link>
                   </li>
-                </li>
-                <li class="list-group-item bg-transparent">
-                  <li class ="liLateral">
-                    <Link to="/galeria">Galeria</Link>
+                  <li class="list-group-item bg-transparent">
+                    <li class ="liLateral">
+                      <Link to="/ongs">ONGs</Link>
+                      </li>
                   </li>
-                </li>
-            </ul>
-        </nav>
-
-
-        <div id="content">
-
+                  <li class="list-group-item bg-transparent">
+                    <li class ="liLateral">
+                      <Link to="/pantanal">O Pantanal</Link>
+                    </li>
+                  </li>
+                  <li class="list-group-item bg-transparent">
+                    <li class ="liLateral">
+                      <Link to="/galeria">Galeria</Link>
+                    </li>
+                  </li>
+                </ul>
+            </nav>
+            <div id="content">
+            </div>
+          </div>
         </div>
-
       </div>
-      </div>
-      </div>
-
-        // <div class="col-md-3 lateral">
-        //   <div class="bg-secondary">
-        //     <ul class="list-group">
-        //       <li class="list-group-item bg-transparent">
-        //         <Link to="/animais">Espécies</Link>
-        //       </li>
-        //       <li class="list-group-item bg-transparent">
-        //         <Link to="/ongs">ONGs</Link>
-        //       </li>
-        //       <li class="list-group-item bg-transparent">
-        //         <Link to="/pantanal">O Pantanal</Link>
-        //       </li>
-        //       <li class="list-group-item bg-transparent">
-        //         TODO
-        //       </li>
-        //     </ul>
-        //   </div>
-        // </div>
     )
   }
 }
