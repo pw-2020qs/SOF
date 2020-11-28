@@ -17,6 +17,9 @@ import Ong from './Ong';
 import Pantanal from './Pantanal';
 import Galeria from './Galeria';
 
+//link para icons
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
 function Admin() {
   return <h2>Admin</h2>;
 }
@@ -51,7 +54,10 @@ const Navbar = () => {
           </div>
           <ul class="navbar-nav">
             <li class="nav-item">
-              <Link to="/" class="nav-link" href="#">Início</Link>
+              <Link to="/" class="nav-link" href="#">
+                <i class="fa fa-home"></i>
+                Início
+              </Link>
             </li>
             <li class="nav-item">
               <Link to="/about" class="nav-link" href="#">Sobre nós</Link>
