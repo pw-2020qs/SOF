@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import Lateral from './Lateral';
 import GalleryImage from './GalleryImage';
-import $ from 'jquery';
 
 const image = "./200x200.png";
 const desc = "Pantanal image"
