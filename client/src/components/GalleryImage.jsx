@@ -1,31 +1,20 @@
 import React, {Component} from 'react';
 import { Link } from "react-router-dom";
-
-//import { Lightbox } from "react-modal-image";
-//import ModalImage from "react-modal-image";
-
-{/* <ModalImage
-  small={urlToTinyImageFile}
-  large={urlToHugeImageFile}
-  alt="Hello World!"
-/>; */}
+import $ from 'jquery';
 
 class GalleryImage extends Component {
-  render() {
+  
+    render() {
     let path = `#`;
     return (
-      //<Link to={path} class="mdb-lightbox-ui">
-    <figure class="img mdb-lightbox">
-        <a href="#" data-size="1600x1067">
-                <div class="ba-0 ds-1">
-                    
-                        <img alt = "Pantanal imagem" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(2).jpg" class="img-fluid"/>
-                   
-                </div>
+      <div class="mdb-lightbox no-margin">  
+        <figure class="img mdb-lightbox">
+            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(117).jpg" data-size="1600x1067">                           
+                <img alt = "picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(117).jpg" class="img-fluid"/>
             </a>
-      </figure>
-      
-      //</Link>
+          </figure>
+          {}
+      </div>  
     );
   }
 }

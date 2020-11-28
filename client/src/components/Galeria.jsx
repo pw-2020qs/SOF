@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Lateral from './Lateral';
 import GalleryImage from './GalleryImage';
+import $ from 'jquery';
 
 const image = "./200x200.png";
 const desc = "Pantanal image"
@@ -17,6 +18,8 @@ class Galeria extends Component {
         <div class="row mt-5">
           <Lateral />
           <div class="col-md-9">
+          <div id="mdb-lightbox-ui">
+          </div>
             <div class="container">
               <div class="row">
                 <div class="col-md-12">
