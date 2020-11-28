@@ -53,16 +53,16 @@ const Navbar = () => {
             <h3>SOF</h3>
           </div>
           <ul class="navbar-nav">
-            <li class="nav-item">
+            <li class="liSuperior nav-item">
               <Link to="/" class="nav-link" href="#">
                 <i class="fa fa-home"></i>
                 Início
               </Link>
             </li>
-            <li class="nav-item">
+            <li class="liSuperior nav-item">
               <Link to="/about" class="nav-link" href="#">Sobre nós</Link>
             </li>
-            <li class="nav-item">
+            <li class="liSuperior nav-item">
               <Link to="/contact" class="nav-link" href="#">Contato</Link>
             </li>
           </ul>

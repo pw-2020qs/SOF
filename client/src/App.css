@@ -49,7 +49,7 @@
   color: #1b1b1b !important;
 }
 
-.lateral {
+.lateral:hover {
   color: #1b1b1b !important;
 }
 
@@ -57,6 +57,8 @@
   padding-left: 1.3vw;
   /* background-color: #4d4d4d; */
 }
+
+/*-------- Hovers ---------*/
 
 .img:hover{
   color: #424242; 
@@ -69,29 +71,27 @@
   transform: scale(1.02);
   -ms-transform: scale(1.15); /* IE 9 /
   -webkit-transform: scale(1.15); / Safari and Chrome */
-
+}
+/*hover navbar superior*/
+.liSuperior:hover{
+  opacity: 1;
+  transform: scale(1.07);
+}
+.liLateral:hover{
+  opacity: 1;
+  transform: scale(1.015);
 }
 
-/* tentativa de modal*/
-.modal,body.modal-open {
-  padding-right: 0!important
+/*-------- End Hovers ---------*/
+
+/*tira bullets da navbar lateral*/
+ul.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
 }
-body.modal-open {
-  overflow: auto
-}
-body.scrollable {
-  overflow-y: auto
-}
-/*
-.modal-footer {
-display: flex;
-justify-content: flex-start;
-.btn {
-  position: absolute;
-  right: 10px;
-}
-}*/
-/*fim tentativa de modal*/
+
+
 
 @keyframes App-logo-spin {
   from {

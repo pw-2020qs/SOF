@@ -17,30 +17,38 @@ class Lateral extends Component {
 
           <nav id="sidebar">
 
-            <ul class="listLateral list-group">
+            <ul class="no-bullets listLateral list-group">
                 <li class="list-group-item bg-transparent">
-                  <Link to="/home">Início</Link>
+                  <li class ="liLateral">
+                  <Link to="/home">Início</Link></li>
                 </li>
                 <li class="lateral list-group-item bg-transparent">
-                    
-                    <a href="#animaisSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Espécies</a>
+                  <li class ="liLateral">
+                    <a class ="liLateral" href="#animaisSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Espécies</a>
                     <ul class="collapse list-unstyled lateralDropdown" id="animaisSubmenu">
-                        <li>
+                        <li class ="liLateral">
                             <Link to="/animais">Ameaçadas</Link>
                         </li>
-                        <li>
+                        <li class ="liLateral">
                             <a href="/animais">Criticamente ameaçadas</a>
                         </li>
                     </ul>
+                  </li>
                 </li>
                 <li class="list-group-item bg-transparent">
-                  <Link to="/ongs">ONGs</Link>
+                  <li class ="liLateral">
+                    <Link to="/ongs">ONGs</Link>
+                    </li>
                 </li>
                 <li class="list-group-item bg-transparent">
-                  <Link to="/pantanal">O Pantanal</Link>
+                  <li class ="liLateral">
+                    <Link to="/pantanal">O Pantanal</Link>
+                  </li>
                 </li>
                 <li class="list-group-item bg-transparent">
-                  <Link to="/galeria">Galeria</Link>
+                  <li class ="liLateral">
+                    <Link to="/galeria">Galeria</Link>
+                  </li>
                 </li>
             </ul>
         </nav>
