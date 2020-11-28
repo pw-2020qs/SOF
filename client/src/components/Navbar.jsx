@@ -17,9 +17,6 @@ import Ong from './Ong';
 import Pantanal from './Pantanal';
 import Galeria from './Galeria';
 
-//link para icons
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-
 function Admin() {
   return <h2>Admin</h2>;
 }
@@ -47,6 +44,8 @@ function CallOng() {
 const Navbar = () => {
   return (
     <Router>
+      {/* link para icons */}
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
       <div class="col">
         <nav class="row navbar navbar-expand-md navbar-dark bg-dark justify-content-between sticky-top">
           <div class="navbar-text">
@@ -55,15 +54,15 @@ const Navbar = () => {
           <ul class="navbar-nav">
             <li class="liSuperior nav-item">
               <Link to="/" class="nav-link" href="#">
-                <i class="fa fa-home"></i>
-                Início
-              </Link>
+              <i class="fa fa-fw fa-home ml-1"/> Início</Link>
             </li>
             <li class="liSuperior nav-item">
-              <Link to="/about" class="nav-link" href="#">Sobre nós</Link>
+              <Link to="/about" class="nav-link" href="#">
+                <i class="fa fa-fw fa-book"/> Sobre nós</Link>
             </li>
             <li class="liSuperior nav-item">
-              <Link to="/contact" class="nav-link" href="#">Contato</Link>
+              <Link to="/contact" class="nav-link" href="#">
+                <i class="fa fa-fw fa-envelope"/> Contato</Link>
             </li>
           </ul>
         </nav>
