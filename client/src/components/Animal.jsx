@@ -46,7 +46,7 @@ class Animal extends Component {
               <hr />
               <Formulario />
               <hr />
-              <Comments coms={animal.Comentarios}/>
+              <Comments ident={animal._id} coms={animal.Comentarios}/>
             </div>
           </div>
         </div>
@@ -54,7 +54,7 @@ class Animal extends Component {
         </div>
         <div class="row-mt-5 justify-content-center">
           <div class="container col-md-9">
-            
+
           </div>
         </div>
       </div>

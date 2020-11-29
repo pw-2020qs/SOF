@@ -7,12 +7,16 @@
       "Desc": "Here and now its time for celebration I finally figured it out (yeah yeah) That all our dreams have no limitations That's what its all about(yeah yeah) Everyone is special in their own way We make each other strong (we make each other strong) Were not the same Were different in a good way Together's where we belong We're all in this together Once we know That we are We're all stars And we see that",
       "Comentarios": [
         {
+          "id": 1,
           "Nome": "Ana Lucia",
-          "Texto": "Olhei até ficar cansado de ver meus olhos no espelho. Chorei por ter despedaçado as flores que estão no canteiro."
+          "Texto": "Olhei até ficar cansado de ver meus olhos no espelho. Chorei por ter despedaçado as flores que estão no canteiro.",
+          "Likes": 2
         },
         {
+          "id": 2,
           "Nome": "Mario Filho",
-          "Texto": "É pintada."
+          "Texto": "É pintada.",
+          "Likes": 0
         }
       ]
     },
@@ -23,8 +27,10 @@
       "Desc": "Sou um passarinho mas não sei voar, eu só sei cantar. Vou voar, sem parar, quando eu aprender. Hm-hm.",
       "Comentarios": [
         {
+          "id": 3,
           "Nome": "Ana Lucia",
-          "Texto": "Linda!"
+          "Texto": "Linda!",
+          "Likes": 0
         }
       ]
     }
@@ -38,12 +44,16 @@
       "Email": "biomas@gmail.com",
       "Comentarios": [
         {
+          "id": 4,
           "Nome": "Ricardo Gerson",
-          "Texto": "Já ajudei!"
+          "Texto": "Já ajudei!",
+          "Likes": 0
         },
         {
+          "id": 5,
           "Nome": "Raquel Rocha",
-          "Texto": "Alguém sabe se ainda estão em atividade?"
+          "Texto": "Alguém sabe se ainda estão em atividade?",
+          "Likes": 0
         }
       ]
     },
@@ -55,10 +65,12 @@
       "Email": "cantaspantanonimas@gmail.com",
       "Comentarios": [
         {
+          "id": 6,
           "Nome": "Victor Estônia",
           "Texto": "Entrarei em contato!"
         },
         {
+          "id": 7,
           "Nome": "Gabriel Logão",
           "Texto": "Alguém sabe se ainda estão em atividade?"
         }
