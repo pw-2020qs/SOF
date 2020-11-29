@@ -35,7 +35,7 @@ class Formulario extends React.Component {
                 <label for="inputComment">Deixe seu comentário:</label>
                 <textarea class="form-control" name="commentUser" value={this.state.commentUser} onChange={this.handleChange} id="inputComment" placeholder="Comentário" rows="3"></textarea>
             </div>
-          <button type="submit" class="btn btn-primary send">Enviar</button>
+          <button type="submit" class="btn btn-primary mb1 bg-olive send">Enviar</button>
         </form>
       );
     }

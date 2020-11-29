@@ -1,5 +1,9 @@
 /* background: https://www.heropatterns.com/ */
 
+*{
+  font-family: Comfortaa; 
+}
+
 .App {
   text-align: center;
 }
@@ -66,7 +70,7 @@
 }
 .liSuperior:hover{ /*hover navbar superior*/
   opacity: 1;
-  transform: scale(1.07);
+  transform: scale(1.05);
 }
 .liLateral:hover{ /*hover navbar lateral*/
   opacity: 1;
@@ -74,7 +78,7 @@
 }
 .like:hover{ /*hover botão de like*/
   opacity: 1;
-  transform: scale(1.02);
+  transform: scale(1.04);
 }
 /*-------- End Hovers ---------*/
 
@@ -90,10 +94,11 @@ ul.no-bullets {
   height: 38px;
   padding: 0 30px;
   font-size: 11px;
-  border-color: rgb(180, 180, 180);
-  background-color: lightgray;
+  border-color: rgb(180, 176, 176);
+  background-color: rgb(190, 190, 190);
   border-radius: 4px;
   box-shadow: transparent;
+  border: transparent;
 }
 .fa-heart{
   color: rgb(85, 85, 85);
@@ -102,7 +107,6 @@ ul.no-bullets {
 input:focus, textarea:focus, button:focus{
   outline: none !important;
   border-color: #418f87 !important;
-  box-shadow: #580d37 !important;
 }
 
 /*botão de envio*/

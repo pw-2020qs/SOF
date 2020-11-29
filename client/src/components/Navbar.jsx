@@ -44,7 +44,8 @@ function CallOng() {
 const Navbar = () => {
   return (
     <Router>
-      {/* link para icons */}
+      {/* link para icons e fonte*/}
+      <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
       {/*Inicio navbar*/}
       <div class="col">
@@ -53,15 +54,15 @@ const Navbar = () => {
             <h3>SOF</h3>
           </div>
           <ul class="navbar-nav">
-            <li class="liSuperior nav-item">
+            <li class="mx-2 liSuperior nav-item">
               <Link to="/" class="nav-link" href="#">
               <i class="fa fa-fw fa-home ml-1"/> Início</Link>
             </li>
-            <li class="liSuperior nav-item">
+            <li class="mx-2 liSuperior nav-item">
               <Link to="/about" class="nav-link" href="#">
                 <i class="fa fa-fw fa-book"/> Sobre nós</Link>
             </li>
-            <li class="liSuperior nav-item">
+            <li class="mx-2 liSuperior nav-item">
               <Link to="/contact" class="nav-link" href="#">
                 <i class="fa fa-fw fa-envelope"/> Contato</Link>
             </li>
