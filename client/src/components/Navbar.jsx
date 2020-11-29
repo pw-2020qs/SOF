@@ -46,6 +46,7 @@ const Navbar = () => {
     <Router>
       {/* link para icons */}
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+      {/*Inicio navbar*/}
       <div class="col">
         <nav class="row navbar navbar-expand-md navbar-dark bg-dark justify-content-between sticky-top">
           <div class="navbar-text">

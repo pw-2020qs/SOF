@@ -29,9 +29,12 @@ class Like extends React.Component {
       }
     render() {
           return (
-              <div>
-                <button onClick={this.updateLikes}> Curtir</button>
-                <p>{this.state.likes}</p>
+                <div>
+                {this.state.likes}
+                <button className="mx-3 likeBin" onClick={this.updateLikes}>
+                    <i class="fa fa-fg fa-heart"></i>
+                </button>
+                
               </div>
           )
       }
