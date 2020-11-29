@@ -38,13 +38,14 @@ class Like extends React.Component {
       }
     }
     render() {
-      return (
-        <div>
-          {this.state.likes}
-          <button className="like mx-3 likeBin" onClick={this.updateNumLikes}>
-            <i class="fa fa-fg fa-heart"></i>
-          </button>
-        </div>
+        const colorHeart = this.state.updated ? "#d45a93" : " #535353"
+        return (
+            <div>
+            {this.state.likes}
+            <button className="like mx-3 likeBin" onClick={this.updateNumLikes}>
+                <i class="fa fa-fg fa-heart" style={{color:colorHeart}}></i>
+            </button>
+            </div>
       )
     }
 }
