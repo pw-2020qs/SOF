@@ -9,13 +9,13 @@ class Comment extends Component {
       <div class="media mt-4">
         <img class="mr-3" src="../100x100.png" alt="Generic placeholder image" />
           <div class="media-body">
-            <h5 class="mt-0">{this.props.nome}</h5>
-            {this.props.texto}
+            <h5 class="mt-0">{this.props.info.Nome}</h5>
+            {this.props.info.Texto}
           </div>
           <div class = "mx-4">
-            <Like />
+            <Like likes={this.props.info.Likes} animal={this.props.ident} ident={this.props.info.id}/>
           </div>
-        </div>  
+        </div>
     );
   }
 }

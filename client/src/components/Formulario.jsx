@@ -17,12 +17,12 @@ class Formulario extends React.Component {
         [name]: value
       });
     }
-  
+
     handleSubmit(event) {
       alert('Seu comentário foi enviado com sucesso!');
       event.preventDefault();
     }
-  
+
     render() {
       return (
         <form onSubmit={this.handleSubmit}>

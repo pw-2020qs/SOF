@@ -13,7 +13,7 @@ class Comments extends Component {
         <div>
           {
             this.props.coms.map(com => {
-              return <Comment nome={com.Nome} texto={com.Texto} />
+              return <Comment ident={this.props.ident} info={com}/>
             })
           }
         </div>
