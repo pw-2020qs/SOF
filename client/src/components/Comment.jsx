@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from "react-router-dom";
+import Like from './Like';
 
 class Comment extends Component {
 
@@ -10,6 +11,7 @@ class Comment extends Component {
         <div class="media-body">
           <h5 class="mt-0">{this.props.nome}</h5>
           {this.props.texto}
+          <Like />
         </div>
       </div>
     );
