@@ -9,7 +9,7 @@ class Like extends React.Component {
         };   
       }
     
-      updateLikes = () => {    
+      updateNumLikes = () => {    
         if(!this.state.updated) {
           this.setState((prevState, props) => {
             return {
@@ -31,7 +31,7 @@ class Like extends React.Component {
           return (
                 <div>
                 {this.state.likes}
-                <button className="mx-3 likeBin" onClick={this.updateLikes}>
+                <button className="like mx-3 likeBin" onClick={this.updateNumLikes}>
                     <i class="fa fa-fg fa-heart"></i>
                 </button>
                 

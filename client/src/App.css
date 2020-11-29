@@ -48,13 +48,8 @@
   color: #1b1b1b !important;
 }
 
-.lateral:hover {
-  color: #1b1b1b !important;
-}
-
 .lateralDropdown{
   padding-left: 1.3vw;
-  /* background-color: #4d4d4d; */
 }
 
 /*-------- Hovers ---------*/
@@ -67,17 +62,19 @@
   transition: all .3s ease-in;
   opacity: 1;
   transform: scale(1.02);
-  -ms-transform: scale(1.15); /* IE 9 /
-  -webkit-transform: scale(1.15); / Safari and Chrome */
+  -ms-transform: scale(1.15); /* IE 9 */
 }
-/*hover navbar superior*/
-.liSuperior:hover{
+.liSuperior:hover{ /*hover navbar superior*/
   opacity: 1;
   transform: scale(1.07);
 }
-.liLateral:hover{
+.liLateral:hover{ /*hover navbar lateral*/
   opacity: 1;
   transform: scale(1.015);
+}
+.like:hover{ /*hover botão de like*/
+  opacity: 1;
+  transform: scale(1.02);
 }
 /*-------- End Hovers ---------*/
 
@@ -86,6 +83,31 @@ ul.no-bullets {
   list-style-type: none; /* Remove bullets */
   padding: 0; /* Remove padding */
   margin: 0; /* Remove margins */
+}
+
+/*Botão de like*/
+.like {
+  height: 38px;
+  padding: 0 30px;
+  font-size: 11px;
+  border-color: rgb(180, 180, 180);
+  background-color: lightgray;
+  border-radius: 4px;
+  box-shadow: transparent;
+}
+.fa-heart{
+  color: rgb(85, 85, 85);
+}
+
+input:focus, textarea:focus, button:focus{
+  outline: none !important;
+  border-color: #418f87 !important;
+  box-shadow: #580d37 !important;
+}
+
+/*botão de envio*/
+.send {
+  background-color: #418f87 !important;
 }
 
 @keyframes App-logo-spin {
