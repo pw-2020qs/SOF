@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Lateral from './Lateral';
+import Formulario from './Formulario';
 import Comments from './Comments';
 import axios from 'axios';
 
@@ -43,7 +44,9 @@ class Animal extends Component {
                 </div>
               </article>
               <hr />
-            <Comments coms={animal.Comentarios}/>
+              <Formulario />
+              <hr />
+              <Comments coms={animal.Comentarios}/>
             </div>
           </div>
         </div>
