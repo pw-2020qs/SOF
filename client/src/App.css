@@ -39,6 +39,22 @@
   background-color: #418f87 !important; 
 } 
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a:active {
+  text-decoration: none;
+}
+
 .footer{
   color:#8b8b8b !important;
   vertical-align: top;
