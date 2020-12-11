@@ -29,7 +29,7 @@ class Lateral extends Component {
                               <Link to="/animais">Ameaçadas</Link>
                           </li>
                           <li class ="liLateral">
-                              <a href="/animais">Criticamente ameaçadas</a>
+                              <Link to="/animais">Criticamente ameaçadas</Link>
                           </li>
                       </ul>
                     </li>

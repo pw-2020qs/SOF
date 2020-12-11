@@ -12,9 +12,14 @@ class Main extends Component {
           <Lateral />
           <div class="col-md-9 w-100">
             <h2 class = "bg-dark"><br/>Banner<br/><br/></h2>
-            <p><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget egestas nulla. Mauris placerat tempor lectus a convallis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis nisi elit, blandit cursus venenatis sit amet, condimentum et turpis. Sed congue felis a justo dictum, fringilla vestibulum velit tincidunt. Ut faucibus mauris tortor, non fringilla sapien blandit eu. Nullam et fringilla neque. Maecenas pulvinar, quam eget posuere lobortis, ipsum orci bibendum felis, posuere rutrum sem metus vitae urna.
-              <br/>
-              Aliquam maximus varius neque, et finibus nisl pellentesque et. Mauris aliquet tincidunt auctor. Nam faucibus nisi eget lobortis facilisis. Nulla eu ipsum et felis cursus pellentesque nec ut turpis. Integer laoreet diam eget arcu ullamcorper, quis tempus metus accumsan. Vestibulum sit amet sapien viverra, semper odio vitae, viverra ex. Nullam lobortis risus non tellus suscipit, a laoreet nulla efficitur.
+            <p><br/><strong>Bem vindo(a) ao portal de ajuda do Pantanal. Você sabia que ele corre risco?</strong><br/>
+              <br/>Aqui, disponibilizamos principais informações sobre o bioma, desde espécies ameaçadas até organizações
+              não-governamentais que atuam no ramo. 
+              <br/><br/>Se desejar visualizar a beleza e o perigo que o pantanal corre, 
+              há também uma galeria de imagens a sua disponição.<br/><br/>
+              Ah, e é possível interagir com outros usuários nas páginas de cada espécie e ONG!<br/><br/>
+              Esperamos que tire proveito de seu tempo conosco para se informar e compartilhar ideias.<br/><br/>
+              Estamos correndo contra o relógio; e cada ação, por menor que seja, conta.<br/>
             </p>
                  <br/><br/>
                  <Carousel />
