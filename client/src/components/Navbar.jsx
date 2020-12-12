@@ -50,8 +50,11 @@ const Navbar = () => {
       {/*Inicio navbar*/}
       <div class="col">
         <nav class="row navbar navbar-expand-md navbar-dark bg-dark justify-content-between sticky-top">
-          <div class="navbar-text">
-            <h3>SOF</h3>
+          <div>
+            <p class = "navbar nav">
+              <img class = "App-logo" src="./Images/soflogo.png" alt="SOF" width = "80" height =  "80"/> 
+              <small class = "navbar-text">Save our Fauna, <br/>Forests and Future</small>
+            </p>
           </div>
           <ul class="navbar-nav">
             <li class="mx-2 liSuperior nav-item">
