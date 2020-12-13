@@ -2,7 +2,12 @@ const express = require('express');
 const routes = require('../routes/api');
 const bodyParser = require('body-parser');
 const path = require('path');
+const connectDB = require('../config/db');
 const app = express();
+
+connectDB();
+
+app.get('/', (req, res) => res.send('Hello world!'));
 
 const port = process.env.PORT || 5000;
 
